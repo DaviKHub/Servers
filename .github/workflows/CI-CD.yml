@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-test-deploy: 
-    runs-on: MacBook-l
+    runs-on: ubuntu-latest
 
     services:  
       postgres:
